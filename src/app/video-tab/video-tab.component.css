@@ -1,0 +1,47 @@
+.main{
+    font-family: monospace;
+    display: flex;
+}
+.left{
+    flex: 70%;
+}
+.title{
+    flex: 80%;
+    border-style: groove;
+}
+.right{
+    flex: 30%;
+    overflow-y: scroll;
+    border-style: groove;
+}
+.dropdown{
+    display: none;
+    border-style: groove;
+    
+}
+.banner{
+    display: flex;
+    height: 20%;
+    border-style: groove;
+}
+.upvotes{
+    flex: 20%;
+    text-align: center;
+    border-style: groove;
+}
+.comments{
+    border-style: groove;
+
+}
+.upnext-videos{
+    display: flex;
+    border-style: groove;
+}
+.img{
+    flex: 30%;
+    width: 100%;
+    border-style: groove;
+}
+.upnext-title{
+    flex: 70%;
+}
